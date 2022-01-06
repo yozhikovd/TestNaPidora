@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Введите данные пассажиров :");
         Passenger passenger1 = new Passenger("Алексей", "24", orientationRandom());
         Passenger passenger2 = new Passenger("Даниил", "25", orientationRandom());
         Passenger passenger3 = new Passenger("Иван", "24", orientationRandom());
